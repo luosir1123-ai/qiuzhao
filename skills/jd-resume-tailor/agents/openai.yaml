@@ -1,0 +1,4 @@
+interface:
+  display_name: "JD 简历定制"
+  short_description: "按目标岗位选择真实经历证据并优化简历结构、关键词覆盖和项目表述"
+  default_prompt: "使用 $jd-resume-tailor 针对这个岗位优化我的简历，同时保持所有事实可验证。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "面试准备"
+  short_description: "根据岗位要求与简历证据生成技术深挖、行为题、追问和能力补齐方案"
+  default_prompt: "使用 $interview-prep 根据目标岗位和我的简历生成面试题、回答提纲与追问。"

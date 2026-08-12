@@ -1,0 +1,4 @@
+interface:
+  display_name: "网申表单助手"
+  short_description: "将简历准确映射到中文校招表单，检查缺失冲突并安全填写可逆字段"
+  default_prompt: "使用 $application-form-helper 将我的简历映射到当前网申页面，填写后停在最终提交前。"
