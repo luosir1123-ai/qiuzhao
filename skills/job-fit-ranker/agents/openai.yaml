@@ -1,0 +1,4 @@
+interface:
+  display_name: "岗位匹配排序"
+  short_description: "从招聘官网提取岗位并基于简历证据进行硬条件筛选与匹配排序"
+  default_prompt: "使用 $job-fit-ranker 分析这个招聘官网，并按我的简历给出岗位匹配排名。"
