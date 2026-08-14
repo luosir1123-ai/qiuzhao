@@ -1,0 +1,15 @@
+{
+  "backlink": true,
+  "bookmarks": true,
+  "command-palette": true,
+  "daily-notes": true,
+  "file-explorer": true,
+  "global-search": true,
+  "note-composer": true,
+  "outline": true,
+  "page-preview": true,
+  "properties": true,
+  "slash-command": true,
+  "templates": true,
+  "word-count": true
+}
