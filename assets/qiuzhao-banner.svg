@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">qiuzhao</title>
+  <desc id="desc">面向中文校招与实习的一站式开源求职系统</desc>
+  <rect width="1200" height="360" fill="#101923"/>
+  <rect y="352" width="1200" height="8" fill="#2da44e"/>
+  <rect x="92" y="74" width="112" height="112" rx="24" fill="none" stroke="#56d364" stroke-width="4"/>
+  <text x="148" y="151" fill="#56d364" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="62" font-weight="800" text-anchor="middle">求</text>
+  <text x="238" y="142" fill="#f6f8fa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="72" font-weight="800">qiuzhao</text>
+  <text x="96" y="228" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="28">面向中文校招与实习的一站式开源求职系统</text>
+  <text x="96" y="273" fill="#8c959f" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="20">岗位发现  ·  匹配评估  ·  简历定制  ·  网申辅助  ·  面试准备  ·  六周冲刺</text>
+  <g transform="translate(810 86)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="600">
+    <rect width="280" height="42" rx="6" fill="#1f6feb"/>
+    <text x="140" y="27" fill="#ffffff" text-anchor="middle">EVIDENCE FIRST</text>
+    <rect y="58" width="280" height="42" rx="6" fill="#238636"/>
+    <text x="140" y="85" fill="#ffffff" text-anchor="middle">CHINESE CAMPUS HIRING</text>
+    <rect y="116" width="280" height="42" rx="6" fill="#8957e5"/>
+    <text x="140" y="143" fill="#ffffff" text-anchor="middle">SKILLS + OBSIDIAN</text>
+  </g>
+</svg>

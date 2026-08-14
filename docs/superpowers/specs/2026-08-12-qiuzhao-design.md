@@ -1,4 +1,4 @@
-# qiuzhao-skills Design
+# qiuzhao Design
 
 ## 1. Objective
 
@@ -8,12 +8,12 @@ The first release targets Chinese recruitment websites and ATS products, while r
 
 ## 2. Repository Shape
 
-Repository: `luosir1123-ai/qiuzhao-skills`
+Repository: `luosir1123-ai/qiuzhao`
 
 License: MIT
 
 ```text
-qiuzhao-skills/
+qiuzhao/
 ├── README.md
 ├── README.zh-CN.md
 ├── LICENSE
@@ -254,7 +254,7 @@ GitHub Actions runs both scripts on pushes and pull requests. Manual forward tes
 The Chinese README is primary and the English README explains the same capabilities. Both show:
 
 ```bash
-npx skills add luosir1123-ai/qiuzhao-skills --skill job-fit-ranker -g
+npx skills add luosir1123-ai/qiuzhao --skill job-fit-ranker -g
 ```
 
 Examples use synthetic resumes and public career URLs. Documentation distinguishes analysis, tailoring, filling, and submission so users understand each skill's authority boundary.

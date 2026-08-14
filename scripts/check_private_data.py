@@ -30,7 +30,7 @@ RULES = {
 }
 
 TEXT_SUFFIXES = {
-    ".md", ".txt", ".py", ".json", ".yaml", ".yml", ".toml", ".ini", ".cfg"
+    ".md", ".txt", ".py", ".json", ".yaml", ".yml", ".toml", ".ini", ".cfg", ".svg"
 }
 
 

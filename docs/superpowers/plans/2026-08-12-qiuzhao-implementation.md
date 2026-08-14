@@ -1,4 +1,4 @@
-# qiuzhao-skills Implementation Plan
+# qiuzhao Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
@@ -10,7 +10,7 @@
 
 ## Global Constraints
 
-- Repository name is `qiuzhao-skills` and license is MIT.
+- Repository name is `qiuzhao` and license is MIT.
 - Never commit resumes, candidate profiles, application answers, screenshots, histories, credentials, or local absolute paths.
 - Never bypass CAPTCHA, MFA, identity verification, application limits, legal declarations, or final-submit confirmation.
 - Do not depend on a hosted backend, proprietary CLI, or employer credentials.
@@ -133,13 +133,13 @@
 - Modify only release metadata if validation finds an issue.
 
 **Interfaces:**
-- Produces public repository `https://github.com/luosir1123-ai/qiuzhao-skills` on branch `main`.
+- Produces public repository `https://github.com/luosir1123-ai/qiuzhao` on branch `main`.
 
 - [ ] Verify GitHub CLI authentication without printing tokens; otherwise use the signed-in GitHub UI.
 - [ ] Create the public MIT repository and set the local `origin`.
 - [ ] Show the exact repository creation/push action and obtain action-time confirmation because publication is an external side effect.
 - [ ] Push `main`, inspect GitHub Actions, and fix only verified failures.
-- [ ] Test `npx skills add luosir1123-ai/qiuzhao-skills --skill job-fit-ranker -g` in an isolated temporary configuration.
+- [ ] Test `npx skills add luosir1123-ai/qiuzhao --skill job-fit-ranker -g` in an isolated temporary configuration.
 - [ ] Tag `v0.1.0` after all checks pass and report the public installation commands.
 
 ## Self-Review

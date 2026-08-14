@@ -1,4 +1,4 @@
-# qiuzhao Obsidian Vault Design
+# 六周冲刺八股和力扣 Obsidian Vault Design
 
 ## Purpose
 
@@ -19,7 +19,7 @@ The system must build minimum interview readiness within seven days, then improv
 ## Repository Structure
 
 ```text
-qiuzhao/
+6周冲刺八股和力扣/
 ├── README.md
 ├── 00-Dashboard/
 ├── 01-Python/

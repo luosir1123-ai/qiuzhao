@@ -15,3 +15,4 @@ jobs:
       - run: python3 -m unittest discover -v
       - run: python3 scripts/validate.py
       - run: python3 scripts/check_private_data.py .
+      - run: python3 "6周冲刺八股和力扣/scripts/validate_vault.py"

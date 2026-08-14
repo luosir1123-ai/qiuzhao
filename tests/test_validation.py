@@ -72,6 +72,15 @@ class RepositoryValidationTests(unittest.TestCase):
         example.write_text("name: Example Candidate\nemail: candidate@example.com\n", encoding="utf-8")
         self.assertEqual([], scan_paths(root, [example]))
 
+    def test_private_data_scanner_checks_svg_text(self):
+        temp, root = self.make_repo()
+        self.addCleanup(temp.cleanup)
+        banner = root / "banner.svg"
+        home = "/" + "Users" + "/alice/resume.pdf"
+        banner.write_text(f"<svg><text>{home}</text></svg>", encoding="utf-8")
+        findings = scan_paths(root, [banner])
+        self.assertEqual({"local-home-path"}, {finding.rule for finding in findings})
+
 
 if __name__ == "__main__":
     unittest.main()

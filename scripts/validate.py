@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate qiuzhao-skills structure and local Markdown references."""
+"""Validate qiuzhao structure and local Markdown references."""
 
 from pathlib import Path
 import argparse

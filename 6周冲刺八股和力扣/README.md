@@ -1,12 +1,12 @@
 ---
-title: qiuzhao - AI Agent / RAG 求职学习系统
+title: 六周冲刺：八股与力扣
 tags: [interview, python, algorithm, rag, agent]
 status: active
 ---
 
-# qiuzhao
+# 六周冲刺：八股与力扣
 
-AI Agent / RAG 求职学习系统。
+`qiuzhao` 仓库中的 42 天 Obsidian 学习系统，面向已经开始投递 AI Agent / RAG 应用开发岗、但 Python 与算法基础薄弱的研究生。
 
 这是一套面向零基础研究生、已经开始投递 **AI Agent / RAG 应用开发岗** 的六周冲刺学习系统。它同时是 Obsidian Vault 和普通 Markdown 仓库，不依赖社区插件也能在 GitHub 阅读。
 
@@ -15,7 +15,7 @@ AI Agent / RAG 求职学习系统。
 
 ## 快速开始
 
-1. 用 Obsidian 打开本仓库根目录。
+1. 用 Obsidian 打开仓库中的 `6周冲刺八股和力扣` 目录（即当前模块根目录）。
 2. 从 [学习总览](00-Dashboard/学习总览.md) 查看今天的入口。
 3. 执行 [Day 01](07-Daily/2026-08-14-Day01.md)。
 4. 每天复制 [每日学习模板](Templates/每日学习模板.md)，完成后补实际用时和证据链接。
