@@ -9,7 +9,7 @@ Turn the JD and verified resume evidence into a role-specific interview pack.
 
 ## Inputs
 
-Obtain the JD, resume/profile, interview stage, and available preparation time when known. Read the shared [candidate contract](../../shared/references/candidate-profile-schema.md), [role families](../../shared/references/role-families.md), and [output contract](../../shared/references/output-contracts.md).
+Obtain the JD, resume/profile, interview stage, and available preparation time when known. Read the shared [candidate contract](../../shared/references/candidate-profile-schema.md), [claim ledger](../../shared/references/claim-ledger-schema.md), [role families](../../shared/references/role-families.md), and [output contract](../../shared/references/output-contracts.md).
 
 ## Workflow
 
@@ -20,6 +20,7 @@ Obtain the JD, resume/profile, interview stage, and available preparation time w
 5. For gaps, provide an honest bridge answer and a concrete study or experiment plan rather than a bluff.
 6. Add questions the candidate should ask the interviewer.
 7. Prioritize by probability and consequence using [interview-pack.md](references/interview-pack.md).
+8. Prioritize `user_attested`, `inferred`, and high-scope claims for adversarial follow-up. Answers must preserve the ownership boundary and metric definition in the claim ledger.
 
 ## Integrity
 

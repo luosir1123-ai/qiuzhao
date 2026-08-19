@@ -81,6 +81,33 @@ class RepositoryValidationTests(unittest.TestCase):
         findings = scan_paths(root, [banner])
         self.assertEqual({"local-home-path"}, {finding.rule for finding in findings})
 
+    def test_repository_contains_unified_skill_set(self):
+        root = Path(__file__).resolve().parents[1]
+        expected = {
+            "job-fit-ranker",
+            "jd-resume-tailor",
+            "resume-auditor",
+            "application-form-helper",
+            "interview-prep",
+            "oss-contributor",
+        }
+        actual = {path.name for path in (root / "skills").iterdir() if path.is_dir()}
+        self.assertTrue(expected <= actual)
+
+    def test_pipeline_skills_link_required_contracts(self):
+        root = Path(__file__).resolve().parents[1]
+        required_links = {
+            "job-fit-ranker": "job-record-schema.md",
+            "jd-resume-tailor": "claim-ledger-schema.md",
+            "application-form-helper": "application-record-schema.md",
+            "interview-prep": "claim-ledger-schema.md",
+            "resume-auditor": "claim-ledger-schema.md",
+            "oss-contributor": "claim-ledger-schema.md",
+        }
+        for skill, contract in required_links.items():
+            text = (root / "skills" / skill / "SKILL.md").read_text(encoding="utf-8")
+            self.assertIn(contract, text, skill)
+
 
 if __name__ == "__main__":
     unittest.main()

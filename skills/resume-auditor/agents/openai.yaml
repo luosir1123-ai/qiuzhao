@@ -1,0 +1,5 @@
+interface:
+  display_name: "简历证据审计"
+  short_description: "逐条检查简历事实、角色边界、指标口径、时间线和面试可信度"
+  default_prompt: "使用 $resume-auditor 审计我的简历主张，标出证据状态、风险措辞与可直接替换的修正版。"
+

@@ -11,7 +11,7 @@ Rank real openings against verified candidate evidence. Do not treat keyword ove
 
 Obtain the careers URL or JD text and the candidate resume/profile. Ask only for missing information that could change eligibility or the top-ranked result.
 
-Read the shared [candidate contract](../../shared/references/candidate-profile-schema.md), [scoring contract](../../shared/references/fit-scoring.md), [role families](../../shared/references/role-families.md), and [output contract](../../shared/references/output-contracts.md). For Chinese recruiting systems, also read [ATS patterns](../../shared/references/chinese-ats-patterns.md).
+Read the shared [candidate contract](../../shared/references/candidate-profile-schema.md), [job record](../../shared/references/job-record-schema.md), [scoring contract](../../shared/references/fit-scoring.md), [role families](../../shared/references/role-families.md), and [output contract](../../shared/references/output-contracts.md). For Chinese recruiting systems, also read [ATS patterns](../../shared/references/chinese-ats-patterns.md).
 
 ## Workflow
 
@@ -25,7 +25,7 @@ Read the shared [candidate contract](../../shared/references/candidate-profile-s
 
 ## Output
 
-Use the table and decision format in [ranking-output.md](references/ranking-output.md). Include direct job links. State which page coverage was inspected and whether the list may be incomplete.
+Use the table and decision format in [ranking-output.md](references/ranking-output.md). Emit one shared Job Record per requisition, include direct job links, and state which page coverage was inspected and whether the list may be incomplete.
 
 ## Guardrails
 

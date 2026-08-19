@@ -9,7 +9,7 @@ Map verified resume data to the current application form and fill reversible fie
 
 ## Preparation
 
-Read the shared [candidate contract](../../shared/references/candidate-profile-schema.md), [Chinese ATS patterns](../../shared/references/chinese-ats-patterns.md), [browser safety rules](../../shared/references/browser-safety.md), and [output contract](../../shared/references/output-contracts.md).
+Read the shared [candidate contract](../../shared/references/candidate-profile-schema.md), [application record](../../shared/references/application-record-schema.md), [Chinese ATS patterns](../../shared/references/chinese-ats-patterns.md), [browser safety rules](../../shared/references/browser-safety.md), and [output contract](../../shared/references/output-contracts.md).
 
 ## Workflow
 
@@ -20,6 +20,11 @@ Read the shared [candidate contract](../../shared/references/candidate-profile-s
 5. Draft open questions from verified experience and the target JD. Do not fabricate game history, language scores, salary, availability, identity, or eligibility.
 6. Validate dates, degree order, phone/email format, character limits, required attachments, and automatic line wrapping.
 7. Stop before final submission and present the review checklist in [form-review.md](references/form-review.md).
+8. After user-confirmed submission or a later recruitment event, append evidence to the application record. Deduplicate by company and requisition; never infer assessment, interview, offer, or rejection from a generic receipt.
+
+## Application Tracking
+
+Track `planned`, `submitted`, `screening`, `assessment`, `interview`, `offer`, `rejected`, `withdrawn`, and `unknown`. Preserve the event history, next action, deadline, and local artifact references. Never store passwords, verification codes, identity numbers, or hidden session data.
 
 ## Mandatory Stops
 

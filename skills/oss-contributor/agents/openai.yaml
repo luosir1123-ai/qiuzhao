@@ -1,0 +1,5 @@
+interface:
+  display_name: "开源贡献助手"
+  short_description: "寻找合规贡献机会、准备并验证本地改动，按确认执行外部操作并沉淀真实证据"
+  default_prompt: "使用 $oss-contributor 按我的目标岗位寻找一个真实且可解释的开源贡献机会，先准备本地 diff。"
+

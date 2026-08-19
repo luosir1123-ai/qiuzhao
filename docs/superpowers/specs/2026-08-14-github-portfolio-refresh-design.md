@@ -51,7 +51,7 @@ The three banners share restrained typography, compact badges, and the same info
 ## Naming And Privacy Rules
 
 - Public repository names, README titles, badges, and install commands must not contain `letouch`; use `waimao` for the outreach product.
-- Scan tracked text and SVG assets for `/Users/letouch/`, credentials, private contact details, and unintended internal endpoints before publishing.
+- Scan tracked text and SVG assets for local home-directory paths, credentials, private contact details, and unintended internal endpoints before publishing.
 - Do not mechanically replace legal company names, resume facts, third-party service names, or historical references without checking their meaning.
 - Use fictional examples and reserved domains such as `example.com`.
 

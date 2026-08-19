@@ -20,7 +20,7 @@
 
 ## What is qiuzhao?
 
-`qiuzhao` is an open-source system for Chinese graduate and internship applications. It connects role discovery, evidence-based fit ranking, resume tailoring, application assistance, interview preparation, and structured study into one reviewable workflow.
+`qiuzhao` is an open-source system for Chinese graduate and internship applications. It connects role discovery, evidence-based fit ranking, resume tailoring and audit, application tracking, interview preparation, honest open-source contribution, and structured study.
 
 The repository has two primary entrances:
 
@@ -38,8 +38,10 @@ The repository has two primary entrances:
 |---|---|---|
 | `job-fit-ranker` | Apply hard eligibility gates and rank roles against resume evidence | Eligibility, fit score, evidence, gaps, official links |
 | `jd-resume-tailor` | Tailor an existing resume to one target role without fabricating claims | Rewrites, keyword coverage, fact-check list |
-| `application-form-helper` | Map resume evidence to Chinese ATS fields | Field plan, missing information, conflicts, final review |
+| `resume-auditor` | Audit ownership, metrics, timelines, attribution, and evidence | Claim ledger, risky wording, corrected copy |
+| `application-form-helper` | Map ATS fields and preserve the application event history | Field plan, conflicts, status, next action |
 | `interview-prep` | Build JD-specific technical and behavioral preparation | Project deep dives, answer outlines, follow-ups, gap-repair plan |
+| `oss-contributor` | Prepare a compliant contribution and preserve its actual state | Validated diff, confirmation gates, contribution record |
 
 ## Six-week interview sprint
 
@@ -88,6 +90,7 @@ Eligibility and evidence-based fit ranking
 Resume tailoring → application-field consistency
         ↓
 Interview preparation → gap repair → review
+        ↖ honest OSS evidence and application history
 ```
 
 The workflow keeps four categories separate:
@@ -118,4 +121,4 @@ Examples must use fictional identities and `example.com` addresses. See [AGENTS.
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE). See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for upstream inspirations and license notices.
